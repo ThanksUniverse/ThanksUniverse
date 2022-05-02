@@ -7,9 +7,9 @@
       <h2><strong>About me:</strong></h2>
       <ul>
         <li>I really love programming and if u do too, add me so we can be friends. ♥</li>
-        <li>At the moment studying Front End. 📝</li>
+        <li>At the moment learning Front End. 📝</li>
         <li>Always looking for new opportunities to learn and get more experience. ☺</li>
-        <li>I like any type of challenge in programmation, so don't hesitate in challenging me</li>
+        <li>I like any type of challenge in programmation, so don't hesitate in challenge me</li>
         <li>In my free time i try to automate things. 🤓</li>
       </ul>
     </section>
