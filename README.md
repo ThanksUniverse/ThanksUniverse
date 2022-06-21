@@ -35,3 +35,5 @@
       </nav>
     </footer>
   </main>
+    
+![Snake animation](https://github.com/ThanksUniverse/ThanksUniverse/blob/output/github-contribution-grid-snake.svg)
