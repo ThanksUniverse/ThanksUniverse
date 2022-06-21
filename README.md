@@ -1,4 +1,10 @@
 <body>
+ <div align="center">
+  <a href="https://github.com/ThanksUniverse">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ThanksUniverse&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ThanksUniverse&layout=compact&langs_count=7&theme=dark"/>
+   </a>
+</div>
   <header>
     <h4>Hii! ☺ my name is Pedro, im currently learning Programming from the course <a href="https://ebaconline.com.br/full-stack-python" target="_blank">Full Stack Python</a> and some other sites like W3Schools; I speak Portuguese, English and a little bit of Spanish.
   </header>
