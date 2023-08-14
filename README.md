@@ -1,39 +1,17 @@
-<div align="center" style="display: inline_block">
-  <a href="https://github.com/ThanksUniverse">
-  <img style="float: left; width: 45%;" height="180em" src="https://github-readme-stats.vercel.app/api?username=ThanksUniverse&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img style="float: left; width: 45%;" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ThanksUniverse&layout=compact&langs_count=7&theme=dark"/>
- </a>
-</div>
-  
-  
-  
-<header>
-    <h4>Hii! ☺ my name is Pedro, im currently learning Programming from the course <a href="https://ebaconline.com.br/full-stack-python" target="_blank">Full Stack Python</a> and some other sites like W3Schools; I speak Portuguese, English and a little bit of Spanish.
-  </header>
-  <main>
-    <section>
-      <h2><strong>About me:</strong></h2>
-      <ul>
-        <li>I really love programming and if u do too, add me so we can be friends. ♥</li>
-        <li>At the moment learning Front End. 📝</li>
-        <li>Always looking for new opportunities to learn and get more experience. ☺</li>
-        <li>I like any type of challenge in programmation, so don't hesitate in challenge me</li>
-        <li>In my free time i try to automate things. 🤓</li>
-      </ul>
-    </section>
-     <section>
-       <h6>Im currently learning these languages:</h6>   
-       <img src="https://camo.githubusercontent.com/5aaa493e3cfe33a44e2474afb656210e55ce612012367546cbb454a1ef73d9f2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f48544d4c352d4533344632362e7376673f267374796c653d666c6174266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465" alt="HTML5" data-canonical-src="https://img.shields.io/badge/HTML5-E34F26.svg?&amp;style=flat&amp;logo=html5&amp;logoColor=white" style="max-width: 100%;">
-       <img src="https://camo.githubusercontent.com/b3f1eddf3c48cfa61466c88f3dcf3f1b51616e2c8ff3447ac90c84f802545082/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f435353332d2532333135373242362e7376673f267374796c653d666c6174266c6f676f3d63737333266c6f676f436f6c6f723d7768697465" alt="CSS3" data-canonical-src="https://img.shields.io/badge/CSS3-%231572B6.svg?&amp;style=flat&amp;logo=css3&amp;logoColor=white" style="max-width: 100%;">
-<img src="https://camo.githubusercontent.com/f2ffb4b78b9aa9e39e511280def47fce6d9eae8daa2f60af369da49aa3baab33/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a4156415343524950542d3332333333302e7376673f267374796c653d666c6174266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d253233463744463145" alt="JavaScript" data-canonical-src="https://img.shields.io/badge/JAVASCRIPT-323330.svg?&amp;style=flat&amp;logo=javascript&amp;logoColor=%23F7DF1E" style="max-width: 100%;">
-<img src="https://camo.githubusercontent.com/a604b4938da68b9051bab5a12cdf4f4d71f85433ce5d25ef6e020e02b9c625b4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4749542d2532334630353033332e7376673f267374796c653d666c6174266c6f676f3d676974266c6f676f436f6c6f723d7768697465" alt="Git" data-canonical-src="https://img.shields.io/badge/GIT-%23F05033.svg?&amp;style=flat&amp;logo=git&amp;logoColor=white" style="max-width: 100%;">
-     </section> 
-    <footer>
-      <h4>Contact me:</h4>
-      <nav>
-        <a href="https://twitter.com/ThanksUniverse_"><img src="./twitter.svg" alt="Twitter" title="ThanksUniverse_" style="max-width: 100%; height: 40px; width: 40px; padding-top: 40px;"</a>                     <a href="https://discordapp.com/users/296461607549272064" target="_blank"><img src="./discord.svg" alt="Discord" title="♡᲼#5025" style="max-width: 100%; height: 40px; width: 40px;"></a>
-      </nav>
-    </footer>
-  </main>
-    
-![Snake animation](https://github.com/ThanksUniverse/ThanksUniverse/blob/output/github-contribution-grid-snake.svg)
+# 💫 About Me:
+I'm a passionate and dedicated developer with one year of experience in Lua and C++ programming. Throughout this time, I have had the opportunity to work on challenging projects, honing my technical skills and developing strong problem-solving abilities. I am committed to writing optimal and well-structured code, adhering to best practices in the programming language. I strive to continuously improve my knowledge and stay updated with the latest industry trends. I am eager to take on new challenges and contribute to innovative projects.
+
+# 💻 Tech Stack:
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=azure-devops&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Gulp](https://img.shields.io/badge/GULP-%23CF4647.svg?style=for-the-badge&logo=gulp&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) 	![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=ThanksUniverse&theme=calm&hide_border=false&include_all_commits=false&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=ThanksUniverse&theme=calm&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=ThanksUniverse&theme=calm&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
+
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=ThanksUniverse&limit=5&theme=dark&combine_all_yearly_contributions=true)
+
+---
+[![](https://visitcount.itsvg.in/api?id=ThanksUniverse&icon=2&color=11)](https://visitcount.itsvg.in)
+
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
