@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=false&repeat=true&width=520&height=45&lines=Passionate+Developer+%7C+Problem+Solver;C%2B%2B+%26+Lua+Specialist;.NET+%26+Full+Stack+Engineer;Always+learning%2C+always+building)](https://github.com/DenverCoder1/readme-typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=false&repeat=true&width=620&height=45&lines=C%23%2F.NET+Developer+%7C+Full-Stack+Engineer;Primary+Developer+for+Greenfield+Projects;Blazor+%2B+SignalR+%2B+Redis+%2B+AI+Integrations;Building+secure%2C+production-ready+systems)](https://github.com/DenverCoder1/readme-typing-svg)
 
 <br>
 
@@ -19,16 +19,26 @@
 
 ```yaml
 name: Pedro Bertoluchi
-role: Software Developer
-experience: Passionate developer with deep expertise in Lua & C++
-focus: Writing optimal, well-structured code with best practices
+role: C#/.NET Developer
+experience: Primary developer for greenfield projects, from architecture to delivery
+focus: Full-stack web systems, real-time apps, AI integrations, and API security
 mindset: Continuous learner, always staying updated with industry trends
-goal: Contributing to innovative projects and taking on new challenges
+goal: Shipping reliable, scalable products that solve real operational problems
 ```
 
-- **Currently working on:** Sharpening my full-stack skills and exploring new technologies
-- **Ask me about:** C++, Lua, .NET, SQL databases, or anything code-related
-- **Fun fact:** I believe clean code is an art form
+- **Currently working on:** Blazor web/hybrid apps, real-time features with SignalR, and AI-enabled workflows
+- **Ask me about:** .NET 9, Blazor, EF Core, Azure SQL, Redis, JWT security, and OpenAI embeddings + RAG
+- **Also experienced with:** C++, Lua, desktop tooling, and automation/integrations
+
+---
+
+## Professional Snapshot
+
+- **Current role:** C#/.NET Developer and primary developer for new initiatives (architecture + implementation + delivery)
+- **What I build:** HelpDesk workflows, import/comex pipelines, real-time notifications, and automation workers
+- **AI work:** Semantic search with OpenAI embeddings + RAG so non-technical users can query docs/KPIs in natural language
+- **Engineering priorities:** Observability, security, and developer productivity with reusable templates/documentation
+- **Recent impact:** Shipped multiple greenfield MVPs from prototype to production, including reusable SignalR and API security templates
 
 ---
 
@@ -36,19 +46,24 @@ goal: Contributing to innovative projects and taking on new challenges
 
 <div align="center">
 
-### Languages & Core
-![Skills](https://skillicons.dev/icons?i=cpp,cs,lua,js,html,css&perline=6)
+### Primary Focus
+![Skills](https://skillicons.dev/icons?i=cs,dotnet,js,html,css&perline=5)
 
-### Frameworks & Libraries
-![Skills](https://skillicons.dev/icons?i=dotnet,bootstrap,jquery,gulp,rabbitmq,redis&perline=6)
+**C# · .NET 9 · Blazor (Web & Hybrid) · SignalR · EF Core · ASP.NET Core Web API**
 
-### Tools & Platforms
-![Skills](https://skillicons.dev/icons?i=azure,github,figma,postman&perline=4)
+### Data, Cloud, and Security
+![Skills](https://skillicons.dev/icons?i=redis,mysql,postgresql,azure,github,postman&perline=6)
 
-### Databases & Services
-![Skills](https://skillicons.dev/icons?i=mysql,sqlite,postgresql,redis&perline=4)
+**SQL Server / Azure SQL · Azure AD (OIDC) · JWT · HSTS · CORS · CI/CD**
 
-**Additional:** Blazor (Server/WASM/Desktop) • ASP.NET Core Web API • SignalR • Razor Pages • MAUI • WPF • Windows Forms • Worker Services • IIS
+### AI and Automation
+
+**OpenAI embeddings · RAG pipelines · Semantic search · Prompt pipelines · Worker services**
+
+### Additional Knowledge
+![Skills](https://skillicons.dev/icons?i=cpp,lua,sqlite,rabbitmq,bootstrap,jquery,gulp,figma&perline=8)
+
+**Also worked with:** Razor Pages • MAUI • WPF • Windows Forms • IIS
 
 </div>
 
