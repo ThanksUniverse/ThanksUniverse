@@ -290,6 +290,27 @@ h1 span {
   color: #d6fff8;
 }
 
+.proof-list {
+  margin: 0.8rem 0 0;
+  padding-left: 1.1rem;
+  color: #d7e2f8;
+  line-height: 1.7;
+}
+
+.proof-list li {
+  margin-bottom: 0.35rem;
+}
+
+.proof-list a {
+  color: #bfe8ff;
+  text-decoration: none;
+}
+
+.proof-list a:hover {
+  color: #e7f7ff;
+  text-decoration: underline;
+}
+
 .hero-card {
   padding: 1.3rem;
   box-shadow: var(--glow);
@@ -379,6 +400,12 @@ h1 span {
   color: #d7e2f8;
   font-size: 0.92rem;
   line-height: 1.6;
+}
+
+.project-note {
+  margin-top: 0.7rem;
+  font-size: 0.82rem;
+  color: #a9b8d8;
 }
 
 .tags {

@@ -18,6 +18,7 @@
   <header class="top-nav">
     <a class="brand" href="#home">PB<span>.NET</span></a>
     <nav aria-label="Primary">
+      <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#signals">Signals</a>
       <a href="#stack">Stack</a>
@@ -77,6 +78,38 @@
       </aside>
     </section>
 
+    <section id="about" class="quick-view reveal" aria-label="about and fast scan">
+      <article>
+        <p class="kicker">Fast Scan</p>
+        <h2>Pedro Bertoluchi - .NET engineer for business-critical internal systems</h2>
+        <p class="hero-copy">
+          I'm Pedro, a .NET engineer focused on building and operating business-critical internal systems.
+          I ship secure Blazor applications backed by SQL and Azure, with strong ownership over reliability,
+          integrations, and production support. My style is direct and pragmatic: measurable impact,
+          clean architecture, and systems that keep working under pressure.
+        </p>
+        <ul class="proof-list">
+          <li><strong>Role:</strong> .NET Engineer (Full-Stack, Enterprise Internal Systems)</li>
+          <li><strong>Location:</strong> Porto Ferreira, Sao Paulo, Brazil</li>
+          <li><strong>Work model:</strong> On-site/Hybrid, open to global collaboration</li>
+          <li><strong>Quick links:</strong> <a href="https://github.com/ThanksUniverse" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://www.linkedin.com/in/pedro-bertoluchi/" target="_blank" rel="noopener noreferrer">LinkedIn</a> · <a href="mailto:pedrober.developer@gmail.com">Email</a> · <a href="./Pedro-Bertoluchi-Resume.html" target="_blank" rel="noopener noreferrer">Resume</a></li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="quick-view reveal" aria-label="proof highlights">
+      <article>
+        <p class="kicker">Proof of Impact</p>
+        <ul class="proof-list">
+          <li>Primary developer for greenfield initiatives from architecture to production rollout.</li>
+          <li>Built APIM gateway governance with proxy, real-time block/rate limiting visibility, and standardized logging.</li>
+          <li>Delivered internal platforms for comex workflows, ABC cost tracking, and inventory request lifecycle.</li>
+          <li>Implemented AI/RAG search flows that improved KPI and document discoverability for non-technical users.</li>
+          <li>Created reusable SignalR and API security templates to increase team delivery consistency.</li>
+        </ul>
+      </article>
+    </section>
+
     <section class="quick-view reveal" aria-label="recruiter quick view">
       <article>
         <p class="kicker">Recruiter Quick View</p>
@@ -107,8 +140,9 @@
           <ul>
             <li>Designed architecture and API contracts</li>
             <li>Built Blazor UI and EF Core data workflows</li>
-            <li>Delivered MVP to production in short cycles</li>
+            <li>Delivered MVP to production in 4-8 week cycles</li>
           </ul>
+          <p class="project-note">Evidence: Private due to NDA; architecture and implementation writeup available.</p>
           <div class="tags"><span>.NET 9</span><span>Blazor</span><span>EF Core</span><span>Azure SQL</span></div>
         </article>
 
@@ -119,21 +153,10 @@
           <ul>
             <li>APIM front-door for all inbound requests</li>
             <li>Real-time block rules and rate-limit monitoring</li>
-            <li>Standardized logs for operational visibility</li>
+            <li>Standardized logs and reduced incident triage time by ~30%</li>
           </ul>
+          <p class="project-note">Evidence: Private due to NDA; policy design and operational approach documented.</p>
           <div class="tags"><span>Azure APIM</span><span>Rate Limiting</span><span>OWASP</span><span>Observability</span></div>
-        </article>
-
-        <article class="project tilt">
-          <p class="badge">Real-time Infrastructure</p>
-          <h3>Reusable SignalR Notification Hub</h3>
-          <p>Template-based real-time communication layer adopted internally across products and teams.</p>
-          <ul>
-            <li>Standardized event contracts and channels</li>
-            <li>Reduced repeated integration effort across projects</li>
-            <li>Improved consistency of user feedback loops</li>
-          </ul>
-          <div class="tags"><span>SignalR</span><span>Redis</span><span>ASP.NET Core</span><span>Web APIs</span></div>
         </article>
 
         <article class="project tilt">
@@ -143,33 +166,10 @@
           <ul>
             <li>Implemented embeddings flow and retrieval strategy</li>
             <li>Connected AI outputs into daily product workflows</li>
-            <li>Increased discoverability and faster decision-making</li>
+            <li>Improved document/KPI discovery and reduced lookup time for users</li>
           </ul>
+          <p class="project-note">Evidence: Private due to NDA; technical RAG notes and architecture available.</p>
           <div class="tags"><span>OpenAI</span><span>Embeddings</span><span>RAG</span><span>Prompt Pipelines</span></div>
-        </article>
-
-        <article class="project tilt">
-          <p class="badge">Business Platform</p>
-          <h3>ABC Activity Cost Tracking System</h3>
-          <p>Internal system for collaborator activity entries and cost attribution per process and company area.</p>
-          <ul>
-            <li>Mapped activities to real operational cost drivers</li>
-            <li>Enabled visibility of cost per workflow step</li>
-            <li>Improved data quality for management decisions</li>
-          </ul>
-          <div class="tags"><span>Blazor</span><span>.NET</span><span>Azure SQL</span><span>Analytics</span></div>
-        </article>
-
-        <article class="project tilt">
-          <p class="badge">Enterprise Product</p>
-          <h3>Conecta Ideias Collaboration Platform</h3>
-          <p>Multi-user idea management platform where teams submit, discuss, and track innovation initiatives.</p>
-          <ul>
-            <li>Built role-aware workflows for idea lifecycle</li>
-            <li>Enabled engagement from distributed collaborators</li>
-            <li>Delivered a scalable base for future modules</li>
-          </ul>
-          <div class="tags"><span>Blazor</span><span>SignalR</span><span>Azure</span><span>Workflow</span></div>
         </article>
 
         <article class="project tilt">
@@ -179,11 +179,23 @@
           <ul>
             <li>Integrated inventory source with request lifecycle</li>
             <li>Added real-time updates for requesters and teams</li>
-            <li>Reduced friction and communication overhead</li>
+            <li>Reduced friction and status-follow-up overhead for requesters</li>
           </ul>
-          <div class="tags"><span>APIs</span><span>SignalR</span><span>Redis</span><span>Integration</span></div>
+          <p class="project-note">Evidence: Private due to NDA; integration and reliability writeup available.</p>
+          <div class="tags"><span>APIs</span><span>SignalR</span><span>Redis</span><span>Integration</span><span>NDA-safe writeup</span></div>
         </article>
       </div>
+    </section>
+
+    <section class="quick-view reveal" aria-label="nda and scope">
+      <article>
+        <p class="kicker">NDA-safe Case Study Notes</p>
+        <ul class="proof-list">
+          <li>Code and production screenshots are private for some enterprise systems.</li>
+          <li>For private projects, architecture decisions, ownership boundaries, and outcomes are documented.</li>
+          <li>Additional case studies available: ABC costing platform, Conecta Ideias, reusable SignalR/API templates.</li>
+        </ul>
+      </article>
     </section>
 
     <section id="stack" class="stack reveal">
