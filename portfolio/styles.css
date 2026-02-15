@@ -192,6 +192,10 @@ h1 span {
   box-shadow: 0 12px 35px rgba(63, 168, 255, 0.24);
 }
 
+.btn.solid.alt {
+  background: linear-gradient(120deg, #23d3c7, #9af5e5);
+}
+
 .btn.ghost {
   color: var(--text);
   border: 1px solid rgba(255, 255, 255, 0.16);
@@ -228,6 +232,29 @@ h1 span {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 20px;
   backdrop-filter: blur(8px);
+}
+
+.quick-view article {
+  background: linear-gradient(145deg, rgba(8, 20, 38, 0.84), rgba(12, 28, 49, 0.74));
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  padding: 1.2rem;
+}
+
+.fact-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1rem;
+}
+
+.fact-tags span {
+  border-radius: 999px;
+  border: 1px solid rgba(0, 210, 198, 0.34);
+  background: rgba(0, 210, 198, 0.07);
+  padding: 0.45rem 0.75rem;
+  font-size: 0.78rem;
+  color: #d6fff8;
 }
 
 .hero-card {
