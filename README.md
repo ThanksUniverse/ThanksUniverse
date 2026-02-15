@@ -30,7 +30,7 @@ goal: Shipping reliable, scalable products that solve real operational problems
 - **Ask me about:** .NET 9, Blazor, EF Core, Azure SQL, Redis, JWT security, and OpenAI embeddings + RAG
 - **Also experienced with:** C++, Lua, desktop tooling, and automation/integrations
 
-> Portfolio page design: [`portfolio/index.html`](./portfolio/index.html)
+> Portfolio page: [`Pedro Bertoluchi`](https://thanksuniverse.github.io/)
 
 ---
 
