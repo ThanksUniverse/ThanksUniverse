@@ -30,6 +30,8 @@ goal: Shipping reliable, scalable products that solve real operational problems
 - **Ask me about:** .NET 9, Blazor, EF Core, Azure SQL, Redis, JWT security, and OpenAI embeddings + RAG
 - **Also experienced with:** C++, Lua, desktop tooling, and automation/integrations
 
+> Portfolio page design: [`portfolio/index.html`](./portfolio/index.html)
+
 ---
 
 ## Professional Snapshot
@@ -37,8 +39,9 @@ goal: Shipping reliable, scalable products that solve real operational problems
 - **Current role:** C#/.NET Developer and primary developer for new initiatives (architecture + implementation + delivery)
 - **What I build:** HelpDesk workflows, import/comex pipelines, real-time notifications, and automation workers
 - **AI work:** Semantic search with OpenAI embeddings + RAG so non-technical users can query docs/KPIs in natural language
-- **Engineering priorities:** Observability, security, and developer productivity with reusable templates/documentation
-- **Recent impact:** Shipped multiple greenfield MVPs from prototype to production, including reusable SignalR and API security templates
+- **Platform ownership:** Azure API Management as central gateway with proxy, logging, real-time blocking, and rate limiting visibility
+- **Engineering priorities:** OWASP-aligned API security, observability, and developer productivity with reusable templates/documentation
+- **Recent impact:** Shipped multiple greenfield MVPs and internal platforms (ABC costing, Conecta Ideias, inventory request tracking)
 
 ---
 
