@@ -111,20 +111,6 @@ goal: Contributing to innovative projects and taking on new challenges
 
 ---
 
-## <img width="25" src="https://i.imgur.com/x1KbuCq.gif"> Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ThanksUniverse/ThanksUniverse/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ThanksUniverse/ThanksUniverse/output/github-contribution-grid-snake.svg">
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/ThanksUniverse/ThanksUniverse/output/github-contribution-grid-snake.svg">
-</picture>
-
-</div>
-
----
-
 <div align="center">
 
 ### <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="25"> Let's Connect
