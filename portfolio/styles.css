@@ -20,17 +20,21 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background: radial-gradient(circle at 10% 20%, #112040 0%, transparent 40%),
-    radial-gradient(circle at 80% 0%, #0f3f66 0%, transparent 34%),
-    var(--bg);
   color: var(--text);
   font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
   scroll-behavior: smooth;
 }
 
+html {
+  background: var(--bg);
+}
+
 body {
   min-height: 100vh;
   overflow-x: hidden;
+  background: radial-gradient(circle at 10% 20%, #112040 0%, transparent 40%),
+    radial-gradient(circle at 80% 0%, #0f3f66 0%, transparent 34%),
+    var(--bg);
 }
 
 ::selection {
@@ -48,12 +52,20 @@ body {
   z-index: -3;
 }
 
-.mesh {
+.mesh-wrap {
   position: fixed;
+  inset: 0;
+  overflow: hidden;
+  clip-path: inset(0);
+  pointer-events: none;
+  z-index: -2;
+}
+
+.mesh {
+  position: absolute;
   border-radius: 50%;
   filter: blur(120px);
   pointer-events: none;
-  z-index: -2;
   animation: float 20s ease-in-out infinite;
 }
 
@@ -862,7 +874,7 @@ h1 span {
 
 footer {
   width: min(1180px, 92vw);
-  margin: 2.5rem auto 3rem;
+  margin: auto;
   color: #6b7fa0;
   font-size: 0.85rem;
   text-align: center;
