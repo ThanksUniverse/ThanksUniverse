@@ -14,29 +14,32 @@
   <div class="noise"></div>
   <div class="mesh mesh-a"></div>
   <div class="mesh mesh-b"></div>
+  <div class="mesh mesh-c"></div>
 
   <header class="top-nav">
     <a class="brand" href="#home">PB<span>.NET</span></a>
-    <nav aria-label="Primary">
+    <nav aria-label="Primary" id="main-nav">
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
-      <a href="#signals">Signals</a>
+      <a href="#strengths">Strengths</a>
       <a href="#stack">Stack</a>
-      <a href="#impact">Impact</a>
       <a href="#contact">Contact</a>
     </nav>
     <div class="top-nav-controls">
       <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Switch language">PT</button>
       <a class="nav-cta" href="#contact">Hire Me</a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </header>
 
   <main id="home">
     <section class="hero reveal">
       <div class="hero-left">
-        <p class="kicker">C#/.NET Developer - Primary Developer for Greenfield Projects</p>
+        <p class="kicker">C#/.NET Developer &mdash; Primary Developer for Greenfield Projects</p>
         <h1>Building production-grade web products with <span>Blazor</span>, <span>SignalR</span>, <span>Redis</span> and <span>AI pipelines</span>.</h1>
-        <p class="hero-copy">
+        <p class="hero-sub">
           I own architecture, implementation, and delivery. I design secure APIs, real-time flows,
           and RAG-driven product features that help teams move faster and make better decisions.
         </p>
@@ -54,7 +57,7 @@
         </ul>
       </div>
 
-      <aside class="hero-card tilt" aria-label="highlights card">
+      <aside class="hero-card tilt" aria-label="Highlights card">
         <h2>Current Role Snapshot</h2>
         <p>Primary developer for new initiatives. From first architecture draft to production handoff.</p>
         <div class="stat-grid">
@@ -78,43 +81,36 @@
       </aside>
     </section>
 
-    <section id="about" class="quick-view reveal" aria-label="about and fast scan">
-      <article>
-        <p class="kicker">Fast Scan</p>
-        <h2>Pedro Bertoluchi - .NET engineer for business-critical internal systems</h2>
-        <p class="hero-copy">
+    <section id="about" class="about reveal">
+      <div class="about-intro">
+        <p class="kicker">About</p>
+        <h2>Pedro Bertoluchi</h2>
+        <p class="about-headline">.NET engineer for business-critical internal systems</p>
+        <p class="about-body">
           I'm Pedro, a .NET engineer focused on building and operating business-critical internal systems.
           I ship secure Blazor applications backed by SQL and Azure, with strong ownership over reliability,
           integrations, and production support. My style is direct and pragmatic: measurable impact,
           clean architecture, and systems that keep working under pressure.
         </p>
-        <ul class="proof-list">
+        <ul class="about-details">
           <li><strong>Role:</strong> .NET Engineer (Full-Stack, Enterprise Internal Systems)</li>
           <li><strong>Location:</strong> Porto Ferreira, Sao Paulo, Brazil</li>
           <li><strong>Work model:</strong> On-site/Hybrid, open to global collaboration</li>
-          <li><strong>Quick links:</strong> <a href="https://github.com/ThanksUniverse" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://www.linkedin.com/in/pedro-bertoluchi/" target="_blank" rel="noopener noreferrer">LinkedIn</a> · <a href="mailto:pedrober.developer@gmail.com">Email</a> · <a href="./Pedro-Bertoluchi-Resume.html" target="_blank" rel="noopener noreferrer">Resume</a></li>
+          <li><strong>Quick links:</strong> <a href="https://github.com/ThanksUniverse" target="_blank" rel="noopener noreferrer">GitHub</a> &middot; <a href="https://www.linkedin.com/in/pedro-bertoluchi/" target="_blank" rel="noopener noreferrer">LinkedIn</a> &middot; <a href="mailto:pedro.bertoluchi@outlook.com">Email</a></li>
         </ul>
-      </article>
-    </section>
-
-    <section class="quick-view reveal" aria-label="proof highlights">
-      <article>
-        <p class="kicker">Proof of Impact</p>
-        <ul class="proof-list">
-          <li>Primary developer for greenfield initiatives from architecture to production rollout.</li>
-          <li>Built APIM gateway governance with proxy, real-time block/rate limiting visibility, and standardized logging.</li>
-          <li>Delivered internal platforms for comex workflows, ABC cost tracking, and inventory request lifecycle.</li>
-          <li>Implemented AI/RAG search flows that improved KPI and document discoverability for non-technical users.</li>
-          <li>Created reusable SignalR and API security templates to increase team delivery consistency.</li>
-        </ul>
-      </article>
-    </section>
-
-    <section class="quick-view reveal" aria-label="recruiter quick view">
-      <article>
-        <p class="kicker">Recruiter Quick View</p>
-        <h2>.NET full-stack engineer with platform ownership</h2>
-        <div class="fact-tags">
+      </div>
+      <div class="about-highlights">
+        <div class="highlight-card">
+          <h3>What I deliver</h3>
+          <ul>
+            <li>Primary developer for greenfield initiatives from architecture to production rollout.</li>
+            <li>Built APIM gateway governance with proxy, real-time block/rate limiting visibility, and standardized logging.</li>
+            <li>Delivered internal platforms for comex workflows, ABC cost tracking, and inventory request lifecycle.</li>
+            <li>Implemented AI/RAG search flows that improved KPI and document discoverability for non-technical users.</li>
+            <li>Created reusable SignalR and API security templates to increase team delivery consistency.</li>
+          </ul>
+        </div>
+        <div class="competence-tags">
           <span>Primary Developer</span>
           <span>Greenfield Delivery</span>
           <span>Azure APIM Governance</span>
@@ -124,7 +120,7 @@
           <span>OpenAI + RAG</span>
           <span>CI/CD Ownership</span>
         </div>
-      </article>
+      </div>
     </section>
 
     <section id="projects" class="projects reveal">
@@ -136,66 +132,112 @@
         <article class="project tilt">
           <p class="badge">Greenfield Platform</p>
           <h3>MG Comex Workflow Platform</h3>
-          <p>End-to-end import/comex pipeline with role-based modules, validations, and operational dashboards.</p>
+          <p class="project-desc">End-to-end import/comex pipeline with role-based modules, validations, and operational dashboards.</p>
           <ul>
             <li>Designed architecture and API contracts</li>
             <li>Built Blazor UI and EF Core data workflows</li>
             <li>Delivered MVP to production in 4-8 week cycles</li>
           </ul>
-          <p class="project-note">Evidence: Private due to NDA; architecture and implementation writeup available.</p>
           <div class="tags"><span>.NET 9</span><span>Blazor</span><span>EF Core</span><span>Azure SQL</span></div>
         </article>
 
         <article class="project tilt">
           <p class="badge">Cloud Gateway</p>
           <h3>Azure API Management Control Layer</h3>
-          <p>Centralized API gateway handling proxy, observability, abuse protection, and traffic governance.</p>
+          <p class="project-desc">Centralized API gateway handling proxy, observability, abuse protection, and traffic governance.</p>
           <ul>
             <li>APIM front-door for all inbound requests</li>
             <li>Real-time block rules and rate-limit monitoring</li>
             <li>Standardized logs and reduced incident triage time by ~30%</li>
           </ul>
-          <p class="project-note">Evidence: Private due to NDA; policy design and operational approach documented.</p>
           <div class="tags"><span>Azure APIM</span><span>Rate Limiting</span><span>OWASP</span><span>Observability</span></div>
         </article>
 
         <article class="project tilt">
           <p class="badge">AI + Automation</p>
           <h3>Semantic Search for KPI and Docs</h3>
-          <p>RAG pipeline enabling non-technical users to ask natural-language questions and retrieve reliable insights.</p>
+          <p class="project-desc">RAG pipeline enabling non-technical users to ask natural-language questions and retrieve reliable insights.</p>
           <ul>
             <li>Implemented embeddings flow and retrieval strategy</li>
             <li>Connected AI outputs into daily product workflows</li>
             <li>Improved document/KPI discovery and reduced lookup time for users</li>
           </ul>
-          <p class="project-note">Evidence: Private due to NDA; technical RAG notes and architecture available.</p>
           <div class="tags"><span>OpenAI</span><span>Embeddings</span><span>RAG</span><span>Prompt Pipelines</span></div>
         </article>
 
         <article class="project tilt">
           <p class="badge">Operations Integration</p>
           <h3>Inventory Request and Live Status System</h3>
-          <p>User-friendly request portal connected to inventory data with real-time status and fulfillment tracking.</p>
+          <p class="project-desc">User-friendly request portal connected to inventory data with real-time status and fulfillment tracking.</p>
           <ul>
             <li>Integrated inventory source with request lifecycle</li>
             <li>Added real-time updates for requesters and teams</li>
             <li>Reduced friction and status-follow-up overhead for requesters</li>
           </ul>
-          <p class="project-note">Evidence: Private due to NDA; integration and reliability writeup available.</p>
-          <div class="tags"><span>APIs</span><span>SignalR</span><span>Redis</span><span>Integration</span><span>NDA-safe writeup</span></div>
+          <div class="tags"><span>APIs</span><span>SignalR</span><span>Redis</span><span>Integration</span></div>
         </article>
+      </div>
+      <div class="also-built">
+        <p class="kicker">Also Built</p>
+        <div class="also-built-items">
+          <span>ABC Activity Cost Tracking Platform</span>
+          <span>Conecta Ideias Collaboration Platform</span>
+          <span>Reusable SignalR Notification Hub</span>
+          <span>HelpDesk Workflow System</span>
+          <span>Real-time Chat with RAG + AI</span>
+        </div>
       </div>
     </section>
 
-    <section class="quick-view reveal" aria-label="nda and scope">
-      <article>
-        <p class="kicker">NDA-safe Case Study Notes</p>
-        <ul class="proof-list">
-          <li>Code and production screenshots are private for some enterprise systems.</li>
-          <li>For private projects, architecture decisions, ownership boundaries, and outcomes are documented.</li>
-          <li>Additional case studies available: ABC costing platform, Conecta Ideias, reusable SignalR/API templates.</li>
-        </ul>
-      </article>
+    <section id="strengths" class="strengths reveal">
+      <div class="section-head">
+        <p class="kicker">Why Work With Me</p>
+        <h2>What I bring to every project</h2>
+      </div>
+      <div class="strengths-grid">
+        <article class="strength-card">
+          <div class="strength-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3>End-to-End Ownership</h3>
+          <p>Repeatedly led architecture, implementation, and production rollout as primary developer for new initiatives.</p>
+        </article>
+        <article class="strength-card">
+          <div class="strength-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          </div>
+          <h3>Security and Reliability</h3>
+          <p>OWASP-oriented API security, APIM governance, rate limiting, logging, and operational guardrails by default.</p>
+        </article>
+        <article class="strength-card">
+          <div class="strength-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
+          <h3>Speed to Production</h3>
+          <p>Prototype-to-production pipelines with reusable templates and clear technical docs. 4-8 week MVP cycles.</p>
+        </article>
+        <article class="strength-card">
+          <div class="strength-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3>Reusable Engineering</h3>
+          <p>Built reusable SignalR and API templates with documentation so teams can ship faster and more consistently.</p>
+        </article>
+        <article class="strength-card">
+          <div class="strength-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+          </div>
+          <h3>Business-First Systems</h3>
+          <p>Systems focused on real operational bottlenecks: HelpDesk, comex, inventory requests, ideas pipeline, and cost tracking.</p>
+        </article>
+        <article class="strength-card">
+          <div class="strength-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h3>Azure-Native</h3>
+          <p>Broad Azure experience: App hosting, identity (Azure AD/OIDC), monitoring, SQL, Redis caching, APIM, and storage.</p>
+        </article>
+      </div>
     </section>
 
     <section id="stack" class="stack reveal">
@@ -204,79 +246,48 @@
         <h2>Built around modern .NET web architecture</h2>
       </div>
       <div class="stack-layout">
-        <article class="stack-card">
+        <article class="stack-card tilt">
+          <div class="stack-card-accent"></div>
           <h3>Application Layer</h3>
           <p>Blazor Web + Hybrid frontends, modular component architecture, and user-centric UX flows.</p>
+          <div class="stack-tags"><span>Blazor</span><span>Razor</span><span>MAUI</span></div>
         </article>
-        <article class="stack-card">
+        <article class="stack-card tilt">
+          <div class="stack-card-accent accent-2"></div>
           <h3>API and Domain Layer</h3>
           <p>ASP.NET Core APIs, EF Core data access, domain workflows, and background workers.</p>
+          <div class="stack-tags"><span>ASP.NET Core</span><span>EF Core</span><span>Workers</span></div>
         </article>
-        <article class="stack-card">
+        <article class="stack-card tilt">
+          <div class="stack-card-accent accent-3"></div>
           <h3>Data and Performance Layer</h3>
           <p>SQL Server/Azure SQL for durability, Redis for low-latency cache and pub/sub patterns.</p>
+          <div class="stack-tags"><span>Azure SQL</span><span>Redis</span><span>Pub/Sub</span></div>
         </article>
-        <article class="stack-card">
+        <article class="stack-card tilt">
+          <div class="stack-card-accent accent-4"></div>
           <h3>Security and Delivery Layer</h3>
           <p>OWASP-aligned API hardening with OIDC, JWT, HSTS, CORS, plus Azure/GitHub CI/CD and observability.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="signals" class="signals reveal">
-      <div class="section-head">
-        <p class="kicker">Hiring Signals</p>
-        <h2>What reduces hiring risk for teams</h2>
-      </div>
-      <div class="impact-grid">
-        <article>
-          <h3>End-to-End Ownership</h3>
-          <p>Repeatedly led architecture, implementation, and production rollout as primary developer for new initiatives.</p>
-        </article>
-        <article>
-          <h3>Security and Reliability</h3>
-          <p>OWASP-oriented API security, APIM governance, rate limiting, logging, and operational guardrails by default.</p>
-        </article>
-        <article>
-          <h3>Reusable Engineering Assets</h3>
-          <p>Built reusable SignalR and API templates with documentation so teams can ship faster and more consistently.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="impact" class="impact reveal">
-      <div class="section-head">
-        <p class="kicker">Engineering Impact</p>
-        <h2>What teams get when I own delivery</h2>
-      </div>
-      <div class="impact-grid">
-        <article>
-          <h3>Speed</h3>
-          <p>Prototype-to-production pipelines with reusable templates and clear technical docs.</p>
-        </article>
-        <article>
-          <h3>Quality</h3>
-          <p>Secure API defaults, observability-first implementation, and maintainable architecture decisions.</p>
-        </article>
-        <article>
-          <h3>Business Fit</h3>
-          <p>Systems focused on operational bottlenecks: HelpDesk, comex, inventory requests, ideas pipeline, and cost tracking.</p>
+          <div class="stack-tags"><span>OIDC</span><span>JWT</span><span>CI/CD</span></div>
         </article>
       </div>
     </section>
 
     <section id="contact" class="contact reveal">
-      <h2>Let's build the next .NET product</h2>
-      <p>Available for full-time and high-impact project collaboration.</p>
-      <div class="hero-actions">
-        <a class="btn solid" href="https://github.com/ThanksUniverse" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
-        <a class="btn ghost" href="https://www.linkedin.com/in/pedro-bertoluchi/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <div class="contact-inner">
+        <h2>Let's build the next .NET product</h2>
+        <p>Available for full-time and high-impact project collaboration.</p>
+        <div class="hero-actions">
+          <a class="btn solid" href="mailto:pedro.bertoluchi@outlook.com">Send Email</a>
+          <a class="btn solid alt" href="https://github.com/ThanksUniverse" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/pedro-bertoluchi/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>Pedro Bertoluchi - C#/.NET Full-Stack Developer</p>
+    <p>Pedro Bertoluchi &mdash; C#/.NET Full-Stack Developer</p>
   </footer>
 
   <script src="./script.js"></script>
