@@ -18,7 +18,7 @@
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> About Me
 
 ```yaml
-name: ThanksUniverse
+name: Pedro Bertoluchi
 role: Software Developer
 experience: Passionate developer with deep expertise in Lua & C++
 focus: Writing optimal, well-structured code with best practices
