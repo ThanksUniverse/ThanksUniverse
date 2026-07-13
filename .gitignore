@@ -1,10 +1,4 @@
 .claude/
-
-# Local visual test artifacts
-portfolio-*.png
-footer-*.png
-
-# Temporary social icon exports (not used in production site)
-twitter.svg
-discord.svg
-*.png
+.omx/
+.playwright-cli/
+output/
